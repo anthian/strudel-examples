@@ -1,7 +1,7 @@
  setCps(140/60/4)
 
 //samples('github:algorave-dave/samples')
-//samples('github:tidacycles/dirt-samples')
+//samples('github:tidalcycles/dirt-samples')
 
 const gainnn = [
   "2",
