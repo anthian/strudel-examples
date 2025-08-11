@@ -1,3 +1,7 @@
+/**
+ * https://www.youtube.com/watch?v=ZCcpWzhekEY
+ */
+
 setCps(140/60/4)
 
 samples('github:tidalcycles/dirt-samples')
