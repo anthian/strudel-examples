@@ -31,6 +31,7 @@ PIANO: cat(
 ).sound("piano")
 .lpf(800)
 .room(0.2)
+.color("red")
 
 ACCORDION: cat(
     note(~!4),
@@ -61,3 +62,9 @@ ACCORDION: cat(
 .sound("gm_accordion")
 .lpf(4000)
 .room(0.2)
+.color("lightgreen")
+
+DRUMS: cat(
+  s("~ rd*2").gain(0.16).pan(0.45).release(0),
+  s("rd*4 rd ~!1.5").pan(0.45).gain("[0.08 0.16]*4").release(0)
+).bank("RolandTR909").color("yellow").velocity(0.2)
