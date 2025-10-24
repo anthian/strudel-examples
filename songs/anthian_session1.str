@@ -1,0 +1,18 @@
+backgroundimage("https://wallpapercave.com/wp/wp5890055.jpg", {style: 'background-opacity: 0.5'})
+
+const setBPM = (bpm) => {
+	setcps(bpm/60/4)
+}
+
+setBPM(120)
+
+const lpf_main_theme = slider(616, 400, 4000)
+
+main_theme: note("f3 a3 d3 e3")
+	.decay(0.1)
+	.delay(1)
+	.sound("square")
+	.lpf(lpf_main_theme)
+	.punchcard({background: 'transparent', inactive: '#aaa5', active: 'gold'})
+
+//.pianoroll({background: 'transparent', inactive: '#aaa5'})
